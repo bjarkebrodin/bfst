@@ -1,0 +1,493 @@
+.root {
+    -fx-background: #1d1d1d;
+}
+
+Button {
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.header {
+    -fx-font-family: "Francois One";
+    -fx-font-smoothing-type: gray;
+    -fx-font-size: 26px;
+}
+
+/* INFO BOX */
+.infoBox {
+    -fx-background-color: #1d1d1d;
+    -fx-border-color: transparent;
+}
+
+/**/
+/* CONTEXT MENUS AND TOOLTIPS */
+.tooltip,
+.context-menu {
+    -fx-border-radius: 2;
+    -fx-background-color: rgba(12, 12, 12, .9);
+    -fx-text-fill: #fefefe;
+    -fx-padding: 5 5 5 5;
+}
+
+.menu-item .label {
+    -fx-background-color: transparent;
+    -fx-text-fill: #fefefe;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: #fefefe;
+}
+
+.addressContext .context-menu,
+.addressContext .tooltip {
+    -fx-pref-width: 225px;
+    -fx-background-color: rgba(12, 12, 12, .9);
+}
+
+.menu-item:focused, .menu-item:hover {
+    -fx-background: rgba(255, 255, 255, .3);
+}
+
+/* DASHBOARD */
+.dashboardBackground {
+    -fx-background-color: #1d1d1d;
+}
+
+#styleChoice, .dashboard Button {
+    -fx-background-color: transparent;
+}
+
+#styleChoice Label {
+    -fx-text-fill: transparent;
+}
+
+#styleChoice {
+    -fx-background-color: transparent;
+}
+
+#styleChoice .tooltip Label {
+    -fx-text-fill: white;
+}
+
+#styleChoice .arrow {
+    -fx-background-color: transparent;
+}
+
+#styleChoice:hover, .dashboard Button:hover {
+    -fx-background-color: rgba(200, 200, 200, .2);
+}
+
+#styleChoice, .dashboard Button {
+    -fx-border-color: transparent transparent rgba(200, 200, 200, .4) transparent;
+    -fx-border-insets: 0 5 0 5;
+    -fx-background-size: 80%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.reloadButton, .binButton {
+    -fx-border-color: transparent;
+}
+
+
+.loadSignifier {
+    -fx-image: url("../media/icons/load.png");
+    -fx-border-color: transparent transparent rgba(200, 200, 200, .4) transparent;
+    -fx-border-insets: 0 5 0 5;
+}
+
+.reloadButton {
+    -fx-background-image: url("../media/icons/reload.png");
+}
+
+.routeButton {
+    -fx-background-image: url("../media/icons/route.png");
+}
+
+#styleChoice {
+    -fx-background-image: url("../media/icons/color.png");
+    -fx-cursor: hand;
+}
+
+.profileButton {
+    -fx-background-image: url("../media/icons/profile.png");
+    -fx-background-size: 100%;
+}
+
+.osmButton {
+    -fx-background-image: url("../media/icons/osm.png");
+}
+
+.binButton {
+    -fx-background-image: url("../media/icons/bin.png");
+}
+
+.saveButton {
+    -fx-background-image: url("../media/icons/save.png");
+}
+
+/* ZOOMBUTTONS */
+.zoomInButton, .zoomOutButton, #randButton {
+    -fx-background-color: rgba(255, 255, 255, .5);
+    -fx-background-insets: 5 5 5 5;
+    -fx-background-size: 80%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, -0, 0);
+}
+
+.zoomInButton:hover, .zoomOutButton:hover, #randButton:hover {
+    -fx-background-color: rgba(255, 255, 255, .8);
+}
+
+.zoomInButton {
+    -fx-background-image: url("../media/icons/plus.png");
+}
+
+.zoomOutButton {
+    -fx-background-image: url("../media/icons/minus.png");
+}
+
+/* SEARCH BAR AND INFO BOX */
+.addressSearch {
+    -fx-background-color: rgba(255, 255, 255, .7);
+    -fx-background-insets: -3 -3 -3 -3;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, -0, 0);
+}
+
+.addressSearch:hover, .addressSearch:active, .addressSearch:focused, .addressSearch:selected {
+    -fx-background-color: rgba(255, 255, 255, 1);
+}
+
+
+/* ROUTE PLANNER */
+.closeRouteBtn {
+    -fx-background-color: transparent;
+    -fx-background-image: url("../media/icons/cross.png");
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-cursor: hand;
+}
+
+.routeHeader {
+    -fx-text-fill: #1d1d1d;
+    -fx-font-size: 24px;
+}
+
+.routeWrapper {
+    -fx-background-color: #fefefe;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 7, 0, 0, 0);
+    -fx-padding: 15 15 15 15;
+}
+
+#carButton, #bikeButton, #walkButton, .poiItem Button {
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-background-size: 80%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-cursor: hand;
+}
+
+#carButton:hover, #bikeButton:hover, #walkButton:hover,
+#carButton:focused, #bikeButton:focused, #walkButton:focused,
+#carButton:selected, #bikeButton:selected, #walkButton:selected {
+    -fx-border-color: transparent;
+    -fx-background-color: rgba(12, 12, 12, .2);
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+#carButton {
+    -fx-background-image: url("../media/icons/car.png");
+}
+
+#bikeButton {
+    -fx-background-image: url("../media/icons/bike.png");
+}
+
+#walkButton {
+    -fx-background-image: url("../media/icons/walk.png");
+}
+
+#routeTypeChoice {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-font-family: "Francois One";
+    -fx-font-weight: 400;
+    -fx-font-size: 12px;
+}
+
+.addressField {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent rgba(12, 12, 12, .7) transparent;
+    -fx-background-position: right center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 32px;
+}
+
+#fromAddressField {
+    -fx-background-image: url(../media/icons/position.png);
+}
+
+#toAddressField {
+    -fx-background-image: url(../media/icons/flag.png);
+}
+
+
+.squareButton {
+    -fx-font-family: "Francois One";
+    -fx-font-size: 14px;
+    -fx-background-color: #fefefe;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 3, 0, 0, 0);
+    -fx-border-color: #1d1d1d;
+    -fx-text-fill: #1d1d1d;
+    -fx-background-radius: 0;
+}
+
+.squareButton:hover {
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: #fefefe;
+}
+
+.squareButton .tooltip,
+#styleChoice .tooltip {
+    -fx-font-family: default;
+    -fx-font-weight: bold;
+    -fx-font-size: 10px;
+}
+
+#routeTypeChoice .context-menu .menu-item {
+    -fx-font-family: "Helvetica";
+    -fx-font-weight: normal;
+    -fx-font-size: 12px;
+}
+
+#routeDescription.text-area {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #fefefe;
+}
+
+#routeDescription .content,
+#routeDescription .scroll-pane {
+    -fx-background-color: #fefefe;
+    -fx-border-color: #fefefe;
+    -fx-cursor: default;
+    -fx-highlight-fill: #fefefe;
+}
+
+#routeDescription:selected .content,
+#routeDescription:selected .scroll-pane {
+    -fx-background-color: transparent;
+    -fx-highlight-fill: #fefefe;
+    -fx-border-color: #fefefe;
+}
+
+#routeDescription .scroll-pane {
+    -fx-hbar-policy: never;
+}
+
+
+/* PROFILE PANE */
+.profilePane {
+    -fx-background-color: #fefefe;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 7, 0, 0, 0);
+    -fx-padding: 15 15 15 15;
+}
+
+.poiItem {
+    -fx-cursor: hand;
+}
+
+.poiItem Button.delete {
+    -fx-background-image: url("../media/icons/cross.png");
+}
+
+.poiItem Button.goto {
+    -fx-background-image: url("../media/icons/arrow.png");
+}
+
+.poiItem Button:hover {
+    -fx-background-color: rgba(0, 0, 0, .2);
+}
+
+.poiHeader {
+    -fx-text-fill: #6d6d6d;
+    -fx-font-size: 19px;
+}
+
+.profilePane .list-view {
+    -fx-background-color: transparent;
+    -fx-highlight-fill: transparent;
+    -fx-border-color: transparent;
+}
+
+.list-view .list-cell {
+    -fx-background-color: transparent;
+}
+
+#poiListView .address {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+#poiListView .timestamp {
+    -fx-font-size: 11px;
+    -fx-text-fill: #6d6d6d;
+}
+
+.list-view .scroll-bar:horizontal .increment-arrow,
+.list-view .scroll-bar:horizontal .decrement-arrow,
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding: 0;
+}
+
+/* SCROLL BAR ;) ;)))*/
+
+.scroll-pane,
+.scroll-pane:focused,
+.scroll-pane .corner {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.scroll-bar:horizontal,
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0.0em;
+    -fx-border-radius: 2;
+}
+
+
+.scroll-bar:horizontal .increment-button,
+.scroll-bar:horizontal .decrement-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0.0em;
+    -fx-padding: 0.0 0.0 10.0 0.0;
+
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0.0em;
+    -fx-padding: 0.0 10.0 0.0 0.0;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-shape: " ";
+    -fx-padding: 0.15em 0.0;
+}
+
+.scroll-bar:vertical .increment-arrow,
+.scroll-bar:vertical .decrement-arrow {
+    -fx-shape: " ";
+    -fx-padding: 0.0 0.15em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #1d1d1d;
+    -fx-background-insets: 6.0, 2.0;
+    -fx-background-radius: 2.0;
+}
+
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: rgba(12, 12, 12, .2);
+    -fx-background-insets: 6.0, 2.0;
+    -fx-background-radius: 2.0;
+}
+
+/* Point of interest etc. */
+
+#addrBoxAddress {
+    -fx-text-fill: #1d1d1d;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#addrBoxLocation {
+    -fx-text-fill: #6d6d6d;
+}
+
+#addrBox {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 7, 0, 0, 0);
+}
+
+#closeAddrButton {
+    -fx-background-image: url("../media/icons/cross.png");
+    -fx-pref-width: 24;
+    -fx-pref-height: 24;
+    -fx-min-width: 24;
+    -fx-min-height: 24;
+    -fx-max-width: 24;
+    -fx-min-height: 24;
+}
+
+
+#POIButton, .routeTo, .routeFrom {
+    -fx-pref-width: 48;
+    -fx-pref-height: 48;
+    -fx-min-width: 48;
+    -fx-min-height: 48;
+    -fx-max-width: 48;
+    -fx-min-height: 48;
+
+}
+
+#POIButton {
+    -fx-background-image: url("../media/icons/POI-not-added.png");
+}
+
+.routeTo {
+    -fx-background-image: url("../media/icons/flag.png");
+}
+
+.routeFrom {
+    -fx-background-image: url("../media/icons/position.png");
+}
+
+#POIButton:selected {
+    -fx-background-image: url("../media/icons/POI-addded.png");
+}
+
+#POIButton, #closeAddrButton, .routeFrom, .routeTo {
+    -fx-background-color: transparent;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 255), 3, 0, 1, 1);
+    -fx-background-insets: 5 5 5 5;
+}
+
+#POIButton:hover, .routeFrom:hover, .routeTo:hover {
+    -fx-background-color: rgba(12, 12, 12, 0.2);
+}
+
+#closeAddrButton:hover {
+    -fx-font-weight: bold;
+}
+
+#addrInfoBox {
+    -fx-padding: 10, 0, 0, 0;
+}
+
+#addrButtonBox {
+    -fx-spacing: 10;
+}

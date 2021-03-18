@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<fx:root type="javafx.scene.control.ListCell" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+    <graphic>
+        <BorderPane prefHeight="75" styleClass="poiItem">
+            <left>
+                <HBox alignment="CENTER_RIGHT">
+                    <VBox alignment="CENTER">
+                        <padding>
+                            <Insets left="-2"/>
+                        </padding>
+                        <Button styleClass="delete" fx:id="deleteButton" minWidth="32" minHeight="32"/>
+                        <Button styleClass="goto" fx:id="goToButton" minWidth="32" minHeight="32"/>
+                    </VBox>
+                </HBox>
+            </left>
+            <right>
+                <VBox alignment="CENTER">
+                    <Label styleClass="address" maxWidth="180" prefWidth="180" fx:id="addressLabel"/>
+                    <Label maxWidth="180" prefWidth="180" fx:id="locationLabel"/>
+                    <Label styleClass="timestamp" maxWidth="180" prefWidth="180" fx:id="dateLabel"/>
+                </VBox>
+            </right>
+
+        </BorderPane>
+    </graphic>
+</fx:root>

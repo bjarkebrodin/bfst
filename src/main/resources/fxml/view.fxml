@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import dankmap.view.HighlightCanvas?>
+<?import dankmap.view.MapCanvas?>
+<?import dankmap.view.OverlayCanvas?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.String?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            stylesheets="@/css/styles.css"
+            fx:controller="dankmap.controller.Controller">
+    <fx:define>
+        <String fx:id="TOOLTIP_DELAY" fx:value="10ms"/>
+        <String fx:id="TOOLTIP_DELAY_SLOW" fx:value="300ms"/>
+    </fx:define>
+    <center>
+        <StackPane onMouseMoved="#handleMouseMoved" fx:id="stackPane">
+
+            <!-- The map itself -->
+            <MapCanvas fx:id="mapCanvas" onScroll="#scroll" onMouseDragged="#handleMouseDragged"
+                       onMousePressed="#handleMousePressed" onMouseReleased="#handleMouseReleased"
+                       onContextMenuRequested="#showContextMenu">
+                <fx:define>
+                    <ContextMenu fx:id="contextMenu">
+                        <items>
+                            <Menu text="Measure">
+                                <MenuItem text="From" onAction="#setMeasureFrom"/>
+                                <MenuItem text="To" onAction="#setMeasureTo"/>
+                                <MenuItem text="Clear" onAction="#clearMeasure"/>
+                            </Menu>
+                            <Menu text="Route">
+                                <MenuItem text="From" onAction="#setFromRouteToMousePos"/>
+                                <MenuItem text="To" onAction="#setToRouteToMousePos"/>
+                                <MenuItem text="Clear" onAction="#clearRoute"/>
+                            </Menu>
+                        </items>
+                    </ContextMenu>
+                </fx:define>
+            </MapCanvas>
+
+            <!-- Highlight layer, used for rendering elements on top of map -->
+            <HighlightCanvas fx:id="highlightCanvas" mouseTransparent="true"/>
+
+            <!-- Debug Overlay layer -->
+            <OverlayCanvas fx:id="overlayCanvas" mouseTransparent="true"/>
+
+            <!--Zoom buttons-->
+            <AnchorPane pickOnBounds="false">
+                <VBox AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" pickOnBounds="false">
+                    <Button prefHeight="48" prefWidth="48" styleClass="zoomInButton" onAction="#zoomInButtonClicked">
+                        <tooltip>
+                            <Tooltip text="Zoom In" showDelay="$TOOLTIP_DELAY"/>
+                        </tooltip>
+                    </Button>
+                    <Button prefHeight="48" prefWidth="48" styleClass="zoomOutButton" onAction="#zoomOutButtonClicked">
+                        <tooltip>
+                            <Tooltip text="Zoom Out" showDelay="$TOOLTIP_DELAY"/>
+                        </tooltip>
+                    </Button>
+                    <Button prefHeight="48" prefWidth="48" fx:id="randButton" onAction="#randomizeColor"
+                            visible="false" text="R">
+                        <tooltip>
+                            <Tooltip text="(R))andomize Color" showDelay="$TOOLTIP_DELAY"/>
+                        </tooltip>
+                    </Button>
+                </VBox>
+                <!-- Point of interest etc -->
+                <BorderPane pickOnBounds="false" AnchorPane.bottomAnchor="5" AnchorPane.leftAnchor="0"
+                            AnchorPane.rightAnchor="0" mouseTransparent="true" fx:id="addrBoxHolder">
+                    <center>
+                        <BorderPane pickOnBounds="true" fx:id="addrBox"
+                                    maxWidth="300" prefHeight="110"
+                                    styleClass="infoBox" visible="false">
+                            <BorderPane.margin>
+                                <Insets left="-10"/>
+                            </BorderPane.margin>
+                            <center>
+                                <VBox spacing="5">
+                                    <padding>
+                                        <Insets left="10" top="5"/>
+                                    </padding>
+                                    <Label fx:id="addrBoxAddress">
+                                    </Label>
+                                    <Label fx:id="addrBoxLocation">
+                                    </Label>
+                                    <HBox alignment="CENTER_LEFT">
+                                        <padding>
+                                            <Insets left="-10" top="-5"/>
+                                        </padding>
+                                        <ToggleButton onAction="#handlePointOfInterest" fx:id="POIButton">
+                                            <tooltip>
+                                                <Tooltip text="Add to Points of Interest!" showDelay="$TOOLTIP_DELAY"/>
+                                            </tooltip>
+                                        </ToggleButton>
+                                        <Region HBox.hgrow="ALWAYS"/>
+                                        <Button styleClass="routeFrom"
+                                                onAction="#setFromRouteToCurrentAddress" prefHeight="20">
+                                            <tooltip>
+                                                <Tooltip text="Route From" showDelay="$TOOLTIP_DELAY"/>
+                                            </tooltip>
+                                        </Button>
+
+                                        <Button styleClass="routeTo"
+                                                onAction="#setToRouteToCurrentAddress" prefHeight="20">
+                                            <tooltip>
+                                                <Tooltip text="Route To" showDelay="$TOOLTIP_DELAY"/>
+                                            </tooltip>
+                                        </Button>
+
+                                    </HBox>
+                                </VBox>
+                            </center>
+                            <right>
+                                <HBox alignment="TOP_RIGHT" fx:id="addrButtonBox">
+                                    <padding>
+                                        <Insets top="5" right="5"/>
+                                    </padding>
+                                    <Button onAction="#closeAddrBox" fx:id="closeAddrButton"/>
+                                </HBox>
+                            </right>
+                        </BorderPane>
+
+                    </center>
+                </BorderPane>
+            </AnchorPane>
+
+            <!-- Right panel -->
+            <BorderPane pickOnBounds="false">
+                <left>
+                    <BorderPane prefWidth="275" fx:id="profileMenu" styleClass="profilePane" translateX="-275">
+                        <top>
+                            <VBox styleClass="profileHeaderWrapper" spacing="15">
+                                <BorderPane>
+                                    <left>
+                                        <HBox alignment="CENTER_LEFT">
+                                            <Label text="Profile" styleClass="routeHeader, header"/>
+                                        </HBox>
+                                    </left>
+                                    <right>
+                                        <HBox alignment="CENTER_RIGHT">
+                                            <Button prefHeight="24" prefWidth="24" styleClass="closeRouteBtn"
+                                                    onMouseClicked="#closeProfileMenu">
+                                            </Button>
+                                        </HBox>
+                                    </right>
+                                </BorderPane>
+
+                            </VBox>
+                        </top>
+
+                        <center>
+                            <VBox maxHeight="Infinity">
+                                <BorderPane.margin>
+                                    <Insets top="20"/>
+                                </BorderPane.margin>
+                                <padding>
+                                    <Insets left="2"/>
+                                </padding>
+                                <Label text="Points of Interest" styleClass="poiHeader"/>
+                                <ListView prefHeight="1000" fx:id="poiListView" focusTraversable="false">
+                                    <padding>
+                                        <Insets left="-10" right="-10" top="10"/>
+                                    </padding>
+                                </ListView>
+                                <Button styleClass="squareButton" text="Clear All"
+                                        onAction="#clearPointsOfInterests" maxWidth="Infinity">
+                                    <tooltip>
+                                        <Tooltip text="Clear PoI's" showDelay="$TOOLTIP_DELAY_SLOW"/>
+                                    </tooltip>
+                                </Button>
+                            </VBox>
+                        </center>
+
+                    </BorderPane>
+                </left>
+
+                <right>
+                    <StackPane pickOnBounds="false">
+
+                        <!-- Statically shown address search bar -->
+                        <AnchorPane fx:id="anchorPane" pickOnBounds="false">
+                            <HBox prefWidth="275" AnchorPane.topAnchor="15" AnchorPane.rightAnchor="15"
+                                  AnchorPane.leftAnchor="0" spacing="35" alignment="CENTER_RIGHT">
+                                <TextField prefWidth="225" prefHeight="30" styleClass="addressSearch, addressContext"
+                                           fx:id="searchAddr"
+                                           onAction="#searchForAddress"
+                                           onKeyTyped="#onTypedAddressSearch" promptText="Address Search"/>
+                            </HBox>
+                        </AnchorPane>
+
+
+                        <!-- Route builder menu -->
+                        <BorderPane styleClass="routeWrapper" prefWidth="250" fx:id="routeMenu" pickOnBounds="false"
+                                    AnchorPane.topAnchor="0"
+                                    AnchorPane.rightAnchor="0"
+                                    translateX="600">
+                            <top>
+                                <VBox spacing="30" pickOnBounds="false">
+                                    <BorderPane>
+                                        <left>
+                                            <HBox alignment="CENTER_LEFT">
+                                                <Label text="Route Planner" styleClass="routeHeader, header"/>
+                                            </HBox>
+                                        </left>
+                                        <right>
+                                            <HBox alignment="CENTER_RIGHT">
+                                                <Button prefHeight="24" prefWidth="24" styleClass="closeRouteBtn"
+                                                        onMouseClicked="#closeRouteMenu"/>
+                                            </HBox>
+                                        </right>
+                                    </BorderPane>
+
+
+                                    <BorderPane pickOnBounds="false">
+                                        <left>
+
+                                            <!-- Toggles where fastest or shortest route is desirable -->
+                                            <HBox alignment="CENTER_LEFT">
+                                                <ChoiceBox prefHeight="48" prefWidth="110" fx:id="routeTypeChoice"
+                                                           value="Fastest route">
+                                                    <items>
+                                                        <FXCollections fx:factory="observableArrayList">
+                                                            <String fx:value="Fastest route"/>
+                                                            <String fx:value="Shortest route"/>
+                                                        </FXCollections>
+                                                    </items>
+                                                </ChoiceBox>
+                                            </HBox>
+                                        </left>
+                                        <right>
+
+                                            <HBox alignment="CENTER_RIGHT">
+                                                <VBox alignment="CENTER" prefHeight="48">
+                                                    <HBox>
+                                                        <!-- Vehicle picking buttons -->
+                                                        <fx:define>
+                                                            <ToggleGroup fx:id="vehicleSelection"/>
+                                                        </fx:define>
+                                                        <ToggleButton prefHeight="38" prefWidth="38" fx:id="carButton"
+                                                                      selected="true"
+                                                                      toggleGroup="$vehicleSelection">
+                                                            <tooltip>
+                                                                <Tooltip text="By Car" showDelay="$TOOLTIP_DELAY"/>
+                                                            </tooltip>
+                                                        </ToggleButton>
+                                                        <ToggleButton prefHeight="38" prefWidth="38" fx:id="bikeButton"
+                                                                      toggleGroup="$vehicleSelection">
+                                                            <tooltip>
+                                                                <Tooltip text="By Bike" showDelay="$TOOLTIP_DELAY"/>
+                                                            </tooltip>
+                                                        </ToggleButton>
+                                                        <ToggleButton prefHeight="38" prefWidth="38" fx:id="walkButton"
+                                                                      toggleGroup="$vehicleSelection">
+                                                            <tooltip>
+                                                                <Tooltip text="By Foot" showDelay="$TOOLTIP_DELAY"/>
+                                                            </tooltip>
+                                                        </ToggleButton>
+                                                    </HBox>
+                                                </VBox>
+                                            </HBox>
+                                        </right>
+
+                                    </BorderPane>
+
+                                    <!-- These are used for specifying addresses -->
+                                    <VBox spacing="20">
+                                        <TextField styleClass="addressField, addressContext" fx:id="fromAddressField"
+                                                   onKeyTyped="#onTypedAddressSearch"
+                                                   onAction="#setFromRoute"
+                                                   promptText="From ... "/>
+                                        <TextField styleClass="addressField, addressContext" fx:id="toAddressField"
+                                                   onKeyTyped="#onTypedAddressSearch"
+                                                   onAction="#setToRoute"
+                                                   promptText="To ..."/>
+
+                                        <HBox alignment="CENTER_LEFT">
+                                            <padding>
+                                                <Insets top="10" bottom="10"/>
+                                            </padding>
+                                            <Button styleClass="squareButton"
+                                                    text="Do you know de wae?"
+                                                    onAction="#findRoute">
+                                                <padding>
+                                                    <Insets left="10" top="10" right="10" bottom="10"/>
+                                                </padding>
+                                                <tooltip>
+                                                    <Tooltip text="Find Route" showDelay="$TOOLTIP_DELAY_SLOW"/>
+                                                </tooltip>
+                                            </Button>
+                                        </HBox>
+                                    </VBox>
+
+
+                                </VBox>
+                            </top>
+
+                            <center>
+                                <BorderPane>
+                                    <center>
+                                        <TextArea fx:id="routeDescription" wrapText="true" prefWidth="225"
+                                                  editable="false">
+                                            <BorderPane.margin>
+                                                <Insets left="-10"/>
+                                            </BorderPane.margin>
+                                        </TextArea>
+                                    </center>
+                                </BorderPane>
+                            </center>
+                        </BorderPane>
+
+
+                    </StackPane>
+                </right>
+            </BorderPane>
+        </StackPane>
+    </center>
+
+    <left>
+
+        <!-- The dashboard panel on the left side of the view -->
+        <BorderPane prefWidth="64" styleClass="dashboardBackground">
+
+            <!-- Menu items -->
+            <top>
+                <VBox styleClass="dashboard">
+                    <Button prefWidth="64" prefHeight="64" styleClass="profileButton"
+                            onMouseClicked="#toggleProfileMenu">
+                        <tooltip>
+                            <Tooltip text="Profile menu" showDelay="$TOOLTIP_DELAY"/>
+                        </tooltip>
+                    </Button>
+                    <Button prefWidth="64" prefHeight="64" styleClass="routeButton"
+                            onMouseClicked="#toggleRouteMenu">
+                        <tooltip>
+                            <Tooltip text="Route Planner" showDelay="$TOOLTIP_DELAY"/>
+                        </tooltip>
+                    </Button>
+                    <ChoiceBox prefHeight="64" prefWidth="64" value="Normal" fx:id="styleChoice"
+                               onAction="#handleStyleChange">
+                        <tooltip>
+                            <Tooltip text="Select Style" showDelay="$TOOLTIP_DELAY"/>
+                        </tooltip>
+                    </ChoiceBox>
+                    <Button prefWidth="64" prefHeight="64" styleClass="saveButton"
+                            onMouseClicked="#saveToBinary">
+                        <tooltip>
+                            <Tooltip text="save" showDelay="300ms"/>
+                        </tooltip>
+                    </Button>
+                    <Button prefWidth="64" prefHeight="64" styleClass="reloadButton"
+                            onMouseClicked="#reload">
+                        <tooltip>
+                            <Tooltip text="Reload" showDelay="$TOOLTIP_DELAY"/>
+                        </tooltip>
+                    </Button>
+                </VBox>
+            </top>
+
+            <!-- Load menu -->
+            <bottom>
+                <VBox styleClass="dashboard">
+                    <HBox prefWidth="64" alignment="CENTER">
+                        <ImageView styleClass="loadSignifier"/>
+                    </HBox>
+                    <Button prefWidth="64" prefHeight="64" styleClass="osmButton" onAction="#loadOSM">
+                        <tooltip>
+                            <Tooltip text="Load OSM" showDelay="$TOOLTIP_DELAY"/>
+                        </tooltip>
+                    </Button>
+                    <Button prefWidth="64" prefHeight="64" styleClass="binButton" onAction="#loadBIN">
+                        <tooltip>
+                            <Tooltip text="Load Binary" showDelay="$TOOLTIP_DELAY"/>
+                        </tooltip>
+                    </Button>
+                </VBox>
+            </bottom>
+
+        </BorderPane>
+
+
+    </left>
+</BorderPane>
+
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.5.8 (8284 thorn-01.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="55.6631000" minlon="12.5730000" maxlat="55.6804000" maxlon="12.6031000"/>
+ <node id="125399" visible="true" version="8" changeset="32185754" timestamp="2015-06-24T15:19:58Z" user="Spectrokid" uid="19775" lat="55.6710440" lon="12.5771583"/>
+ <node id="125402" visible="true" version="4" changeset="828447" timestamp="2009-01-23T19:05:27Z" user="sfromis" uid="49560" lat="55.6743964" lon="12.5854426"/>
+ </osm>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.8.1 (9244 thorn-03.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="55.6599100" minlon="12.5913900" maxlat="55.6605100" maxlon="12.5925500"/>
+ <node id="18090416" visible="true" version="9" changeset="7721334" timestamp="2011-03-30T22:36:42Z" user="Ernst Poulsen" uid="35273" lat="55.6601784" lon="12.5931273">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="281182936" visible="true" version="3" changeset="614748" timestamp="2008-10-28T10:34:43Z" user="sfromis" uid="49560" lat="55.6614965" lon="12.5892159"/>
+ <node id="281182938" visible="true" version="4" changeset="3279172" timestamp="2009-12-03T09:48:03Z" user="msiebuhr" uid="10371" lat="55.6602857" lon="12.5903583"/>
+ <node id="281182940" visible="true" version="6" changeset="41338158" timestamp="2016-08-09T06:07:54Z" user="Hjart" uid="207581" lat="55.6602750" lon="12.5914516"/>
+ <node id="281182941" visible="true" version="4" changeset="3279219" timestamp="2009-12-03T09:56:17Z" user="msiebuhr" uid="10371" lat="55.6630496" lon="12.5928939"/>
+ <node id="281183478" visible="true" version="6" changeset="41338158" timestamp="2016-08-09T06:07:54Z" user="Hjart" uid="207581" lat="55.6637140" lon="12.5866786"/>
+ <node id="281183479" visible="true" version="6" changeset="41338158" timestamp="2016-08-09T06:07:54Z" user="Hjart" uid="207581" lat="55.6617683" lon="12.5857345"/>
+ <node id="281183480" visible="true" version="3" changeset="614748" timestamp="2008-10-28T10:34:43Z" user="sfromis" uid="49560" lat="55.6610607" lon="12.5890528"/>
+ <node id="281183481" visible="true" version="4" changeset="3279172" timestamp="2009-12-03T09:48:03Z" user="msiebuhr" uid="10371" lat="55.6613331" lon="12.5907130"/>
+ <node id="293759363" visible="true" version="7" changeset="6776090" timestamp="2010-12-27T10:31:09Z" user="Claus Hindsgaul" uid="185440" lat="55.6602183" lon="12.5908161"/>
+ <node id="298719827" visible="true" version="6" changeset="7780358" timestamp="2011-04-05T23:45:01Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6601471" lon="12.5908620"/>
+ <node id="298719828" visible="true" version="6" changeset="7780358" timestamp="2011-04-05T23:44:11Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6601490" lon="12.5911154"/>
+ <node id="298719829" visible="true" version="4" changeset="7780358" timestamp="2011-04-05T23:43:17Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6592124" lon="12.5907801"/>
+ <node id="298719830" visible="true" version="4" changeset="7780358" timestamp="2011-04-05T23:43:03Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6592398" lon="12.5905440"/>
+ <node id="298719831" visible="true" version="5" changeset="7780358" timestamp="2011-04-05T23:44:51Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6601411" lon="12.5914094"/>
+ <node id="298719832" visible="true" version="5" changeset="7780358" timestamp="2011-04-05T23:43:21Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6601314" lon="12.5916320"/>
+ <node id="298719835" visible="true" version="6" changeset="7780358" timestamp="2011-04-05T23:44:31Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6589444" lon="12.5912136"/>
+ <node id="298719836" visible="true" version="4" changeset="7780358" timestamp="2011-04-05T23:43:13Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6589716" lon="12.5910020"/>
+ <node id="298719837" visible="true" version="5" changeset="7780358" timestamp="2011-04-05T23:44:59Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6599610" lon="12.5910509"/>
+ <node id="298719838" visible="true" version="5" changeset="7780358" timestamp="2011-04-05T23:44:35Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6599341" lon="12.5913321"/>
+ <node id="298719839" visible="true" version="5" changeset="7780358" timestamp="2011-04-05T23:44:15Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6593764" lon="12.5908375"/>
+ <node id="298719840" visible="true" version="5" changeset="7780358" timestamp="2011-04-05T23:43:16Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6593461" lon="12.5911256"/>
+ <node id="302215392" visible="true" version="4" changeset="6776090" timestamp="2010-12-27T10:31:06Z" user="Claus Hindsgaul" uid="185440" lat="55.6602189" lon="12.5907548"/>
+ <node id="579391903" visible="true" version="3" changeset="41338158" timestamp="2016-08-09T06:07:55Z" user="Hjart" uid="207581" lat="55.6615898" lon="12.5859920"/>
+ <node id="579391906" visible="true" version="3" changeset="41338158" timestamp="2016-08-09T06:07:55Z" user="Hjart" uid="207581" lat="55.6619348" lon="12.5856782"/>
+ <node id="579391907" visible="true" version="2" changeset="4680670" timestamp="2010-05-12T20:19:50Z" user="Claus Hindsgaul" uid="185440" lat="55.6613398" lon="12.5873295"/>
+ <node id="579391908" visible="true" version="3" changeset="41338158" timestamp="2016-08-09T06:07:55Z" user="Hjart" uid="207581" lat="55.6615096" lon="12.5863219"/>
+ <node id="661727421" visible="true" version="3" changeset="30048639" timestamp="2015-04-07T20:04:24Z" user="Niels Elgaard Larsen" uid="1288" lat="55.6593734" lon="12.5908661">
+  <tag k="amenity" v="parking_entrance"/>
+ </node>
+ <node id="661727423" visible="true" version="3" changeset="30048639" timestamp="2015-04-07T20:04:24Z" user="Niels Elgaard Larsen" uid="1288" lat="55.6599369" lon="12.5913030">
+  <tag k="amenity" v="parking_entrance"/>
+ </node>
+ <node id="661727424" visible="true" version="3" changeset="7780358" timestamp="2011-04-05T23:43:17Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6602118" lon="12.5914012"/>
+ <node id="729416921" visible="true" version="3" changeset="59293428" timestamp="2018-05-26T12:58:37Z" user="autoAWS" uid="8209541" lat="55.6600840" lon="12.5921260">
+  <tag k="addr:city" v="København S"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="5"/>
+  <tag k="addr:municipality" v="København"/>
+  <tag k="addr:postcode" v="2300"/>
+  <tag k="addr:street" v="Rued Langgaards Vej"/>
+  <tag k="osak:identifier" v="0a3f507a-e638-32b8-e044-0003ba298018"/>
+  <tag k="source" v="AWS Web API"/>
+ </node>
+ <node id="1067393462" visible="true" version="1" changeset="6775419" timestamp="2010-12-27T09:26:13Z" user="Claus Hindsgaul" uid="185440" lat="55.6605881" lon="12.5930463"/>
+ <node id="1067393467" visible="true" version="2" changeset="14277044" timestamp="2012-12-14T23:26:08Z" user="jesperd" uid="122755" lat="55.6607228" lon="12.5916392"/>
+ <node id="1067393471" visible="true" version="1" changeset="6775419" timestamp="2010-12-27T09:26:13Z" user="Claus Hindsgaul" uid="185440" lat="55.6602613" lon="12.5929498"/>
+ <node id="1067393473" visible="true" version="2" changeset="14277044" timestamp="2012-12-14T23:26:08Z" user="jesperd" uid="122755" lat="55.6602724" lon="12.5914769"/>
+ <node id="1234226315" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:44Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6591503" lon="12.5916351"/>
+ <node id="1234226328" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:45Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6599714" lon="12.5916856"/>
+ <node id="1234226335" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:46Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6588417" lon="12.5912144"/>
+ <node id="1234226343" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:46Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6600341" lon="12.5915977"/>
+ <node id="1234226344" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:46Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6598309" lon="12.5918765"/>
+ <node id="1234226347" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:46Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6602001" lon="12.5920074"/>
+ <node id="1234226349" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:46Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6599484" lon="12.5918791"/>
+ <node id="1234226358" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:47Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6591737" lon="12.5917955"/>
+ <node id="1234226362" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:47Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6602058" lon="12.5917098"/>
+ <node id="1234226367" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:47Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6599135" lon="12.5916679"/>
+ <node id="1234226378" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:47Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6590028" lon="12.5916525"/>
+ <node id="1234226389" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:48Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6591788" lon="12.5913385"/>
+ <node id="1234226394" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:48Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6599763" lon="12.5920841"/>
+ <node id="1234226395" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:48Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6598640" lon="12.5915857"/>
+ <node id="1234226404" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:49Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6598936" lon="12.5918594"/>
+ <node id="1234226409" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:49Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6588084" lon="12.5915139"/>
+ <node id="1234226411" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:49Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6591798" lon="12.5917118"/>
+ <node id="1234226428" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:50Z" user="Jørgen Elgaard Larsen" uid="426479" lat="55.6590516" lon="12.5912514"/>
+ <node id="1335654161" visible="true" version="4" changeset="59292949" timestamp="2018-05-26T12:35:27Z" user="autoAWS" uid="8209541" lat="55.6603070" lon="12.5924780">
+  <tag k="addr:city" v="København S"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="2D"/>
+  <tag k="addr:municipality" v="København"/>
+  <tag k="addr:postcode" v="2300"/>
+  <tag k="addr:street" v="Rued Langgaards Vej"/>
+  <tag k="osak:identifier" v="734c006f-b733-17af-e044-00144f3ead67"/>
+  <tag k="source" v="AWS Web API"/>
+ </node>
+ <node id="1335654168" visible="true" version="4" changeset="59293428" timestamp="2018-05-26T13:01:06Z" user="autoAWS" uid="8209541" lat="55.6603070" lon="12.5923810">
+  <tag k="addr:city" v="København S"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="4A"/>
+  <tag k="addr:municipality" v="København"/>
+  <tag k="addr:postcode" v="2300"/>
+  <tag k="addr:street" v="Rued Langgaards Vej"/>
+  <tag k="osak:identifier" v="734c006f-b734-17af-e044-00144f3ead67"/>
+  <tag k="source" v="AWS Web API"/>
+ </node>
+ <node id="1335654180" visible="true" version="4" changeset="59293428" timestamp="2018-05-26T13:01:06Z" user="autoAWS" uid="8209541" lat="55.6603070" lon="12.5922870">
+  <tag k="addr:city" v="København S"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="4B"/>
+  <tag k="addr:municipality" v="København"/>
+  <tag k="addr:postcode" v="2300"/>
+  <tag k="addr:street" v="Rued Langgaards Vej"/>
+  <tag k="osak:identifier" v="734c006f-b735-17af-e044-00144f3ead67"/>
+  <tag k="source" v="AWS Web API"/>
+ </node>
+ <node id="1335654186" visible="true" version="4" changeset="59292949" timestamp="2018-05-26T12:35:27Z" user="autoAWS" uid="8209541" lat="55.6603080" lon="12.5921840">
+  <tag k="addr:city" v="København S"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="4C"/>
+  <tag k="addr:municipality" v="København"/>
+  <tag k="addr:postcode" v="2300"/>
+  <tag k="addr:street" v="Rued Langgaards Vej"/>
+  <tag k="osak:identifier" v="734c006f-b736-17af-e044-00144f3ead67"/>
+  <tag k="source" v="AWS Web API"/>
+ </node>
+ <node id="1335654197" visible="true" version="4" changeset="59293868" timestamp="2018-05-26T13:27:13Z" user="autoAWS" uid="8209541" lat="55.6603100" lon="12.5920780">
+  <tag k="addr:city" v="København S"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="4D"/>
+  <tag k="addr:municipality" v="København"/>
+  <tag k="addr:postcode" v="2300"/>
+  <tag k="addr:street" v="Rued Langgaards Vej"/>
+  <tag k="osak:identifier" v="734c006f-b737-17af-e044-00144f3ead67"/>
+  <tag k="source" v="AWS Web API"/>
+ </node>
+ <node id="1335654218" visible="true" version="4" changeset="59292949" timestamp="2018-05-26T12:35:27Z" user="autoAWS" uid="8209541" lat="55.6603140" lon="12.5919180">
+  <tag k="addr:city" v="København S"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="6A"/>
+  <tag k="addr:municipality" v="København"/>
+  <tag k="addr:postcode" v="2300"/>
+  <tag k="addr:street" v="Rued Langgaards Vej"/>
+  <tag k="osak:identifier" v="734c006f-b738-17af-e044-00144f3ead67"/>
+  <tag k="source" v="AWS Web API"/>
+ </node>
+ <node id="1335654230" visible="true" version="4" changeset="59292949" timestamp="2018-05-26T12:35:27Z" user="autoAWS" uid="8209541" lat="55.6604210" lon="12.5920390">
+  <tag k="addr:city" v="København S"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="6B"/>
+  <tag k="addr:municipality" v="København"/>
+  <tag k="addr:postcode" v="2300"/>
+  <tag k="addr:street" v="Rued Langgaards Vej"/>
+  <tag k="osak:identifier" v="734c006f-b739-17af-e044-00144f3ead67"/>
+  <tag k="source" v="AWS Web API"/>
+ </node>
+ <node id="1335654280" visible="true" version="4" changeset="59292949" timestamp="2018-05-26T12:35:28Z" user="autoAWS" uid="8209541" lat="55.6603190" lon="12.5915330">
+  <tag k="addr:city" v="København S"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="6E"/>
+  <tag k="addr:municipality" v="København"/>
+  <tag k="addr:postcode" v="2300"/>
+  <tag k="addr:street" v="Rued Langgaards Vej"/>
+  <tag k="osak:identifier" v="734c006f-b73c-17af-e044-00144f3ead67"/>
+  <tag k="source" v="AWS Web API"/>
+ </node>
+ <node id="1335654302" visible="true" version="4" changeset="59293428" timestamp="2018-05-26T13:01:06Z" user="autoAWS" uid="8209541" lat="55.6604210" lon="12.5915780">
+  <tag k="addr:city" v="København S"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="8"/>
+  <tag k="addr:municipality" v="København"/>
+  <tag k="addr:postcode" v="2300"/>
+  <tag k="addr:street" v="Rued Langgaards Vej"/>
+  <tag k="osak:identifier" v="734c006f-b73d-17af-e044-00144f3ead67"/>
+  <tag k="source" v="AWS Web API"/>
+ </node>
+ <node id="3253326230" visible="true" version="2" changeset="72871948" timestamp="2019-07-31T20:20:22Z" user="VicVal" uid="511334" lat="55.6622587" lon="12.5857942"/>
+ <node id="4095967722" visible="true" version="1" changeset="38275086" timestamp="2016-04-03T20:26:05Z" user="mdp553" uid="84853" lat="55.6601211" lon="12.5920419"/>
+ <node id="4095967723" visible="true" version="1" changeset="38275086" timestamp="2016-04-03T20:26:05Z" user="mdp553" uid="84853" lat="55.6601119" lon="12.5928707"/>
+ <node id="4095967724" visible="true" version="1" changeset="38275086" timestamp="2016-04-03T20:26:05Z" user="mdp553" uid="84853" lat="55.6587782" lon="12.5924786"/>
+ <node id="4095967725" visible="true" version="1" changeset="38275086" timestamp="2016-04-03T20:26:05Z" user="mdp553" uid="84853" lat="55.6588842" lon="12.5916170"/>
+ <node id="4342157849" visible="true" version="1" changeset="41338158" timestamp="2016-08-09T06:07:43Z" user="Hjart" uid="207581" lat="55.6606934" lon="12.5920739"/>
+ <node id="4342157851" visible="true" version="1" changeset="41338158" timestamp="2016-08-09T06:07:43Z" user="Hjart" uid="207581" lat="55.6607357" lon="12.5916139"/>
+ <node id="4342157909" visible="true" version="1" changeset="41338158" timestamp="2016-08-09T06:07:43Z" user="Hjart" uid="207581" lat="55.6632616" lon="12.5863219"/>
+ <node id="4342157910" visible="true" version="1" changeset="41338158" timestamp="2016-08-09T06:07:43Z" user="Hjart" uid="207581" lat="55.6633131" lon="12.5861717"/>
+ <node id="4342157911" visible="true" version="1" changeset="41338158" timestamp="2016-08-09T06:07:43Z" user="Hjart" uid="207581" lat="55.6633660" lon="12.5865606"/>
+ <node id="4845126201" visible="true" version="5" changeset="48803976" timestamp="2017-05-18T21:15:38Z" user="Niels Elgaard Larsen" uid="1288" lat="55.6603008" lon="12.5915369">
+  <tag k="amenity" v="cafe"/>
+  <tag k="cuisine" v="ice_cream"/>
+  <tag k="fvst:navnelbnr" v="707076"/>
+  <tag k="name" v="Ismageriet"/>
+  <tag k="source" v="Facebook (relocation of the cafe)"/>
+  <tag k="website" v="https://www.ismageriet.dk"/>
+  <tag k="wifi" v="yes"/>
+ </node>
+ <node id="5479255425" visible="true" version="1" changeset="57196373" timestamp="2018-03-15T03:24:06Z" user="Ernst Poulsen" uid="35273" lat="55.6635720" lon="12.5880074"/>
+ <node id="5479255426" visible="true" version="1" changeset="57196373" timestamp="2018-03-15T03:24:06Z" user="Ernst Poulsen" uid="35273" lat="55.6633433" lon="12.5865088"/>
+ <node id="5849798267" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6605912" lon="12.5914364"/>
+ <node id="5849798268" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6604955" lon="12.5914089"/>
+ <node id="5849798269" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6605175" lon="12.5913338"/>
+ <node id="5849798270" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6605050" lon="12.5913070"/>
+ <node id="5849798271" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6605356" lon="12.5912668"/>
+ <node id="5849798272" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6605530" lon="12.5913144"/>
+ <node id="5849798273" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6606048" lon="12.5912379"/>
+ <node id="5849798274" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6605833" lon="12.5911836"/>
+ <node id="5849798275" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6605572" lon="12.5911749"/>
+ <node id="5849798276" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6605636" lon="12.5911266"/>
+ <node id="5849798277" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6605871" lon="12.5910998"/>
+ <node id="5849798278" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6605787" lon="12.5910810"/>
+ <node id="5849798279" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6606374" lon="12.5910227"/>
+ <node id="5849798280" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6602538" lon="12.5916021"/>
+ <node id="5849798281" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6602338" lon="12.5916000"/>
+ <node id="5849798282" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6602349" lon="12.5914901"/>
+ <node id="5849798283" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:06Z" user="Troels Arvin" uid="100060" lat="55.6602538" lon="12.5914928"/>
+ <node id="7142640867" visible="true" version="1" changeset="79753747" timestamp="2020-01-19T12:33:29Z" user="Ernst Poulsen" uid="35273" lat="55.6611957" lon="12.5882193"/>
+ <node id="7206858463" visible="true" version="1" changeset="80922240" timestamp="2020-02-12T20:14:47Z" user="hrmmhahmhm" uid="466535" lat="55.6600450" lon="12.5925355"/>
+ <node id="7206858464" visible="true" version="1" changeset="80922240" timestamp="2020-02-12T20:14:47Z" user="hrmmhahmhm" uid="466535" lat="55.6600428" lon="12.5926515"/>
+ <node id="7206858465" visible="true" version="1" changeset="80922240" timestamp="2020-02-12T20:14:47Z" user="hrmmhahmhm" uid="466535" lat="55.6596125" lon="12.5925241"/>
+ <node id="7206858466" visible="true" version="1" changeset="80922240" timestamp="2020-02-12T20:14:47Z" user="hrmmhahmhm" uid="466535" lat="55.6595907" lon="12.5927286"/>
+ <node id="7206858467" visible="true" version="1" changeset="80922240" timestamp="2020-02-12T20:14:47Z" user="hrmmhahmhm" uid="466535" lat="55.6601021" lon="12.5928909"/>
+ <node id="7206858468" visible="true" version="1" changeset="80922240" timestamp="2020-02-12T20:14:47Z" user="hrmmhahmhm" uid="466535" lat="55.6601074" lon="12.5925529"/>
+ <way id="25779358" visible="true" version="16" changeset="79753747" timestamp="2020-01-19T12:33:29Z" user="Ernst Poulsen" uid="35273">
+  <nd ref="281183478"/>
+  <nd ref="4342157911"/>
+  <nd ref="5479255426"/>
+  <nd ref="4342157909"/>
+  <nd ref="4342157910"/>
+  <nd ref="3253326230"/>
+  <nd ref="579391906"/>
+  <nd ref="281183479"/>
+  <nd ref="579391903"/>
+  <nd ref="579391908"/>
+  <nd ref="579391907"/>
+  <nd ref="7142640867"/>
+  <nd ref="281183480"/>
+  <nd ref="281182936"/>
+  <nd ref="281183481"/>
+  <nd ref="281182938"/>
+  <nd ref="281182940"/>
+  <nd ref="4342157851"/>
+  <nd ref="4342157849"/>
+  <nd ref="281182941"/>
+  <nd ref="5479255425"/>
+  <nd ref="281183478"/>
+  <tag k="amenity" v="university"/>
+  <tag k="name" v="Københavns Universitet, Søndre Campus"/>
+  <tag k="name:en" v="University of Copenhagen, South Campus"/>
+  <tag k="wikidata" v="Q11982832"/>
+  <tag k="wikipedia" v="da:Søndre Campus (Københavns Universitet)"/>
+ </way>
+ <way id="27220158" visible="true" version="15" changeset="73533117" timestamp="2019-08-20T10:54:03Z" user="archie" uid="156646">
+  <nd ref="298719835"/>
+  <nd ref="1234226428"/>
+  <nd ref="1234226343"/>
+  <nd ref="298719832"/>
+  <nd ref="298719831"/>
+  <nd ref="298719838"/>
+  <nd ref="661727423"/>
+  <nd ref="298719837"/>
+  <nd ref="298719828"/>
+  <nd ref="298719827"/>
+  <nd ref="298719830"/>
+  <nd ref="298719829"/>
+  <nd ref="298719839"/>
+  <nd ref="661727421"/>
+  <nd ref="298719840"/>
+  <nd ref="298719836"/>
+  <nd ref="298719835"/>
+  <tag k="amenity" v="university"/>
+  <tag k="architect" v="Henning Larsen"/>
+  <tag k="building" v="university"/>
+  <tag k="name" v="IT-Universitetet"/>
+  <tag k="name:en" v="IT University"/>
+  <tag k="name:ko" v="코펜하겐 IT 대학교"/>
+  <tag k="official_name" v="IT-Universitetet i København"/>
+  <tag k="official_name:en" v="IT University of Copenhagen"/>
+  <tag k="phone" v="+45 72185000"/>
+  <tag k="short_name" v="ITU"/>
+  <tag k="toilets:wheelchair" v="yes"/>
+  <tag k="website" v="https://www.itu.dk/"/>
+  <tag k="wheelchair" v="yes"/>
+  <tag k="wikidata" v="Q124882"/>
+  <tag k="wikipedia" v="da:IT-Universitetet i København"/>
+ </way>
+ <way id="27220169" visible="true" version="7" changeset="48631247" timestamp="2017-05-12T18:20:09Z" user="runejuhl" uid="367181">
+  <nd ref="18090416"/>
+  <nd ref="1234226347"/>
+  <nd ref="1234226362"/>
+  <nd ref="661727424"/>
+  <nd ref="293759363"/>
+  <nd ref="302215392"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lit" v="yes"/>
+  <tag k="name" v="Rued Langgaards Vej"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="51863162" visible="true" version="2" changeset="61900366" timestamp="2018-08-22T19:53:10Z" user="Troels Arvin" uid="100060">
+  <nd ref="661727424"/>
+  <nd ref="661727423"/>
+  <tag k="highway" v="cycleway"/>
+  <tag k="incline" v="down"/>
+ </way>
+ <way id="91851844" visible="true" version="3" changeset="77132785" timestamp="2019-11-15T14:35:20Z" user="Dennis Kjær Jensen" uid="108446">
+  <nd ref="1067393467"/>
+  <nd ref="1067393462"/>
+  <nd ref="1067393471"/>
+  <nd ref="1067393473"/>
+  <nd ref="1067393467"/>
+  <tag k="building" v="office"/>
+  <tag k="building:levels" v="6"/>
+  <tag k="name" v="Mikado House"/>
+  <tag k="roof:levels" v="0"/>
+  <tag k="wikidata" v="Q63343469"/>
+ </way>
+ <way id="107382791" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:50Z" user="Jørgen Elgaard Larsen" uid="426479">
+  <nd ref="1234226362"/>
+  <nd ref="1234226395"/>
+  <nd ref="1234226389"/>
+  <nd ref="1234226335"/>
+  <tag k="highway" v="service"/>
+  <tag k="lit" v="no"/>
+  <tag k="service" v="parking_aisle"/>
+ </way>
+ <way id="107382798" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:52Z" user="Jørgen Elgaard Larsen" uid="426479">
+  <nd ref="1234226328"/>
+  <nd ref="1234226349"/>
+  <nd ref="1234226404"/>
+  <nd ref="1234226367"/>
+  <nd ref="1234226328"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="107382817" visible="true" version="1" changeset="7780358" timestamp="2011-04-05T23:42:56Z" user="Jørgen Elgaard Larsen" uid="426479">
+  <nd ref="1234226409"/>
+  <nd ref="1234226315"/>
+  <nd ref="1234226344"/>
+  <nd ref="1234226347"/>
+  <tag k="highway" v="service"/>
+  <tag k="lit" v="no"/>
+  <tag k="service" v="parking_aisle"/>
+ </way>
+ <way id="107382834" visible="true" version="6" changeset="75642807" timestamp="2019-10-14T06:12:20Z" user="osmviborg" uid="379467">
+  <nd ref="1234226343"/>
+  <nd ref="1234226394"/>
+  <nd ref="1234226358"/>
+  <nd ref="1234226411"/>
+  <nd ref="1234226378"/>
+  <nd ref="1234226428"/>
+  <nd ref="1234226343"/>
+ </way>
+ <way id="407544534" visible="true" version="1" changeset="38275086" timestamp="2016-04-03T20:26:05Z" user="mdp553" uid="84853">
+  <nd ref="4095967722"/>
+  <nd ref="4095967723"/>
+  <nd ref="4095967724"/>
+  <nd ref="4095967725"/>
+  <nd ref="4095967722"/>
+  <tag k="landuse" v="brownfield"/>
+ </way>
+ <way id="618974756" visible="true" version="1" changeset="61900366" timestamp="2018-08-22T19:53:09Z" user="Troels Arvin" uid="100060">
+  <nd ref="5849798279"/>
+  <nd ref="5849798278"/>
+  <nd ref="5849798277"/>
+  <nd ref="5849798276"/>
+  <nd ref="5849798275"/>
+  <nd ref="5849798274"/>
+  <nd ref="5849798273"/>
+  <nd ref="5849798272"/>
+  <nd ref="5849798271"/>
+  <nd ref="5849798270"/>
+  <nd ref="5849798269"/>
+  <nd ref="5849798268"/>
+  <nd ref="5849798267"/>
+  <nd ref="5849798279"/>
+  <tag k="leisure" v="park"/>
+ </way>
+ <way id="618974757" visible="true" version="3" changeset="79712037" timestamp="2020-01-17T18:59:37Z" user="Dennis Kjær Jensen" uid="108446">
+  <nd ref="5849798283"/>
+  <nd ref="5849798282"/>
+  <nd ref="5849798281"/>
+  <nd ref="5849798280"/>
+  <nd ref="5849798283"/>
+  <tag k="amenity" v="bicycle_parking"/>
+  <tag k="bicycle_parking" v="wall_loops"/>
+  <tag k="capacity" v="15"/>
+  <tag k="covered" v="no"/>
+ </way>
+ <way id="771980901" visible="true" version="1" changeset="80922240" timestamp="2020-02-12T20:14:47Z" user="hrmmhahmhm" uid="466535">
+  <nd ref="7206858468"/>
+  <nd ref="7206858467"/>
+  <nd ref="7206858466"/>
+  <nd ref="7206858465"/>
+  <nd ref="7206858464"/>
+  <nd ref="7206858463"/>
+  <nd ref="7206858468"/>
+  <tag k="building" v="construction"/>
+ </way>
+ <relation id="1529172" visible="true" version="3" changeset="78510668" timestamp="2019-12-17T07:03:07Z" user="Dennis Kjær Jensen" uid="108446">
+  <member type="way" ref="107382834" role="outer"/>
+  <member type="way" ref="107382798" role="inner"/>
+  <member type="way" ref="107382790" role="inner"/>
+  <tag k="access" v="yes"/>
+  <tag k="amenity" v="parking"/>
+  <tag k="capacity:disabled" v="2"/>
+  <tag k="fee" v="yes"/>
+  <tag k="parking" v="surface"/>
+  <tag k="type" v="multipolygon"/>
+ </relation>
+</osm>

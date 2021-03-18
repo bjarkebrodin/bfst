@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<draw-types>
+    <draw-type id="0" zoomLevel="0" fillColor="#AAD3DF" strokeColor="#BF95C800"
+               strokeWidth="2">
+        <tag key="none1"/>
+    </draw-type>
+    <draw-type id="1" zoomLevel="0" fillColor="#F2EFE9" strokeColor="#BF95C8"
+               strokeWidth="3" dashes="10">
+        <tag key="none2"/>
+    </draw-type>
+
+    <draw-type id="2" zoomLevel="0" fillColor="#EEF0D5">
+        <tag key="landuse" value="farmland"/>
+    </draw-type>
+    <draw-type id="3" zoomLevel="6" fillColor="#CDEBB0">
+        <tag key="natural" value="grassland"/>
+    </draw-type>
+
+    <draw-type id="4" zoomLevel="4" fillColor="#D8DAAE">
+        <tag key="natural" value="heath"/>
+    </draw-type>
+
+    <draw-type id="5" zoomLevel="1" fillColor="#E0DFDF">
+        <tag key="landuse" value="residential"/>
+    </draw-type>
+
+    <draw-type id="6" zoomLevel="7" fillColor="#F5DCBA">
+        <tag key="landuse" value="farmyard"/>
+    </draw-type>
+    <draw-type id="7" zoomLevel="5" fillColor="#C5C3C3">
+        <tag key="landuse" value="quarry"/>
+    </draw-type>
+    <draw-type id="8" zoomLevel="5" fillColor="#E9E7E2" strokeColor="#DADBC2"
+               strokeWidth="0.5">
+        <tag key="aeroway" value="aerodrome"/>
+    </draw-type>
+    <draw-type id="9" zoomLevel="7" fillColor="#DEF6C0">
+        <tag key="tourism" value="camp_site"/>
+    </draw-type>
+    <draw-type id="10" zoomLevel="5" fillColor="#B6B592">
+        <tag key="landuse" value="landfill"/>
+    </draw-type>
+    <draw-type id="11" zoomLevel="3" fillColor="#FCEEB8">
+        <tag key="natural" value="beach"/>
+    </draw-type>
+    <draw-type id="12" zoomLevel="7" fillColor="#EBDBE8">
+        <tag key="landuse" value="industrial"/>
+    </draw-type>
+    <draw-type id="13" zoomLevel="1" fillColor="#CDEBB0">
+        <tag key="landuse" value="meadow"/>
+    </draw-type>
+    <draw-type id="14" zoomLevel="5" fillColor="#B5E3B5">
+        <tag key="leisure" value="golf_course"/>
+    </draw-type>
+    <draw-type id="15" zoomLevel="8" fillColor="#DFFCE2">
+        <tag key="leisure" value="sports_centre"/>
+    </draw-type>
+    <draw-type id="16" zoomLevel="4" fillColor="#90d4b9">
+        <tag key="natural" value="wetland"/>
+    </draw-type>
+
+
+    <draw-type id="17" zoomLevel="8" fillColor="#DFFCE2"
+               strokeColor="#AADCAE" strokeWidth="0.5">
+        <tag key="landuse" value="recreation_ground"/>
+    </draw-type>
+    <draw-type id="18" zoomLevel="7" fillColor="#E2CBDE">
+        <tags>
+            <tag key="power" value="generator"/>
+            <tag key="power" value="substation"/>
+        </tags>
+    </draw-type>
+    <draw-type id="19" zoomLevel="7" fillColor="#F2EFE9">
+        <tag key="man_made" value="breakwater"/>
+    </draw-type>
+    <draw-type id="20" zoomLevel="7" fillColor="#FFFFE5">
+        <tags>
+            <tag key="amenity" value="hospital"/>
+            <tag key="amenity" value="social_facility"/>
+            <tag key="amenity" value="university"/>
+            <tag key="amenity" value="school"/>
+            <tag key="amenity" value="kindergarten"/>
+        </tags>
+    </draw-type>
+    <draw-type id="21" zoomLevel="5" fillColor="#C9E1BF">
+        <tag key="landuse" value="allotments"/>
+    </draw-type>
+    <draw-type id="22" zoomLevel="6" fillColor="#FFD6D1">
+        <tag key="landuse" value="retail"/>
+    </draw-type>
+    <draw-type id="23" zoomLevel="5" fillColor="#AACBAF">
+        <tag key="landuse" value="cemetery"/>
+    </draw-type>
+
+
+    <draw-type id="24" zoomLevel="7" fillColor="#DBDBE6">
+        <tag key="place" value="square"/>
+    </draw-type>
+    <draw-type id="25" zoomLevel="1" fillColor="#C8FACC">
+        <tag key="leisure" value="park"/>
+    </draw-type>
+
+    <draw-type id="26" zoomLevel="7" fillColor="#EBDBE8" strokeColor="#EBDBE8">
+        <tag key="man_made" value="wastewater_plant"/>
+    </draw-type>
+
+    <draw-type id="27" zoomLevel="0" fillColor="#ADD19E">
+        <tag key="landuse" value="forest"/>
+    </draw-type>
+
+    <draw-type id="28" zoomLevel="3" fillColor="#ADD19E">
+        <tag key="natural" value="wood"/>
+    </draw-type>
+    <draw-type id="29" zoomLevel="1" fillColor="#AAD3DF" strokeWidth="2">
+        <tags>
+            <tag key="natural" value="water"/>
+            <tag key="landuse" value="basin"/>
+            <tag key="water" value="lake"/>
+            <tag key="water" value="moat"/>
+            <tag key="water" value="canal"/>
+            <tag key="water" value="pond"/>
+            <tag key="waterway" value="dock"/>
+        </tags>
+    </draw-type>
+    <draw-type id="30" zoomLevel="7" fillColor="#DFFCE2">
+        <tag key="leisure" value="dog_park"/>
+    </draw-type>
+    <draw-type id="31" zoomLevel="7" fillColor="#CDEBB0">
+        <tag key="leisure" value="garden"/>
+    </draw-type>
+    <draw-type id="32" zoomLevel="3" fillColor="#CDEBB0">
+        <tag key="landuse" value="grass"/>
+    </draw-type>
+    <draw-type id="33" zoomLevel="7" fillColor="#AAD3DF">
+        <tags>
+            <tag key="landuse" value="reservoir"/>
+            <tag key="water" value="reservoir"/>
+        </tags>
+    </draw-type>
+    <draw-type id="34" zoomLevel="7" fillColor="#C7C7B4">
+        <tag key="landuse" value="construction"/>
+    </draw-type>
+    <draw-type id="35" zoomLevel="7" fillColor="#EEEEEE" strokeColor="D7C8C7"
+               strokeWidth="0.5">
+        <tag key="amenity" value="parking"/>
+    </draw-type>
+    <draw-type id="36" zoomLevel="8" fillColor="#C4B6AB"
+               strokeColor="B8A79A" strokeWidth="0.5">
+        <tag key="amenity" value="place_of_worship"/>
+    </draw-type>
+    <draw-type id="37" zoomLevel="3" fillColor="#F2E6C4">
+        <tag key="natural" value="sand"/>
+    </draw-type>
+    <draw-type id="38" zoomLevel="7" fillColor="#DADAE0">
+        <tag key="aeroway" value="apron"/>
+    </draw-type>
+
+    <draw-type id="39" zoomLevel="3" fillColor="#C8D7AB">
+        <tag key="natural" value="scrub"/>
+    </draw-type>
+    <draw-type id="40" zoomLevel="5" strokeColor="#BBBBCC" strokeWidth="40"
+               cap="square" outline="true">
+        <tag key="aeroway" value="runway"/>
+    </draw-type>
+    <draw-type id="41" zoomLevel="5" strokeColor="#BBBBCC" strokeWidth="20"
+               cap="square" outline="true">
+        <tag key="aeroway" value="taxiway"/>
+    </draw-type>
+
+    <draw-type id="42" zoomLevel="7" fillColor="#DFFCE2">
+        <tag key="leisure" value="playground"/>
+    </draw-type>
+    <draw-type id="43" zoomLevel="7" fillColor="#B5E3B5">
+        <tag key="leisure" value="miniature_golf"/>
+    </draw-type>
+    <draw-type id="44" zoomLevel="6" fillColor="#AAE0CB" strokeColor="#92D1B8">
+        <tag key="leisure" value="pitch"/>
+    </draw-type>
+
+    <draw-type id="45" zoomLevel="8" fillColor="#BBBBCC">
+        <tag key="aeroway" value="helipad"/>
+    </draw-type>
+    <draw-type id="46" zoomLevel="7" fillColor="#B1D5C2"
+               strokeColor="#B1D5C2" strokeWidth="1">
+        <tag key="leisure" value="track"/>
+    </draw-type>
+    <draw-type id="47" zoomLevel="9" strokeColor="#AACEA3" strokeWidth="1">
+        <tag key="barrier" value="hedge"/>
+    </draw-type>
+    <draw-type id="48" zoomLevel="4" strokeColor="#AAD3DF" strokeWidth="3">
+        <tag key="waterway" value="stream"/>
+        <tag key="waterway" value="river"/>
+    </draw-type>
+    <draw-type id="49" zoomLevel="8" fillColor="#AAD3DF">
+        <tag key="sport" value="surfing"/>
+    </draw-type>
+    <draw-type id="50" zoomLevel="7" strokeColor="#99BEE2AA" strokeWidth="4">
+        <tag key="leisure" value="marina"/>
+    </draw-type>
+    <draw-type id="51" zoomLevel="7" strokeColor="#AAC891AA"
+               strokeWidth="6" dynamic="true">
+        <tag key="leisure" value="nature_reserve"/>
+    </draw-type>
+    <draw-type id="52" zoomLevel="4" fillColor="#BBBBBB">
+        <tag key="railway" value="platform"/>
+    </draw-type>
+
+    <draw-type id="53" zoomLevel="7" fillColor="#DFFCE2">
+        <tag key="leisure" value="stadium"/>
+    </draw-type>
+
+    <draw-type id="54" zoomLevel="8" fillColor="#D9D0C9" strokeColor="#C2B5AA">
+        <tag key="building"/>
+    </draw-type>
+    <draw-type id="55" zoomLevel="8" fillColor="#D9D0C9" strokeColor="#C8BBAE">
+        <tag key="amenity" value="library"/>
+        <tag key="building" value="university"/>
+    </draw-type>
+    <draw-type id="56" zoomLevel="7" fillColor="#C4B6AB" strokeColor="#9B9487">
+        <tag key="aeroway" value="terminal"/>
+    </draw-type>
+    <draw-type id="57" zoomLevel="7" fillColor="#B8B8B8" strokeColor="#B8B8B8"
+               strokeWidth="2">
+        <tag key="man_made" value="bridge"/>
+    </draw-type>
+
+    <draw-type id="58" zoomLevel="8" fillColor="#F2EFE9" strokeColor="#F2EFE9">
+        <tag key="man_made" value="pier"/>
+    </draw-type>
+    <draw-type id="59" zoomLevel="7" strokeColor="#FFFFFF" strokeWidth="2">
+        <tag key="bridge" value="yes"/>
+    </draw-type>
+
+    <draw-type id="60" zoomLevel="7" strokeColor="#899FEE" strokeWidth="1"
+               dynamic="true" dashes="5">
+        <tag key="route" value="ferry"/>
+    </draw-type>
+    <draw-type id="61" zoomLevel="9" strokeColor="#FA8173" dashes="5">
+        <tag key="highway" value="footway"/>
+        <tag key="highway" value="path"/>
+    </draw-type>
+    <draw-type id="62" zoomLevel="9" strokeColor="#35acda" dashes="3">
+        <tag key="highway" value="cycleway"/>
+    </draw-type>
+    <draw-type id="63" zoomLevel="9" strokeColor="#B1B1A2">
+        <tag key="barrier" value="fence"/>
+        <tag key="barrier" value="wall"/>
+        <tag key="man_made" value="embankment"/>
+    </draw-type>
+    <draw-type id="64" zoomLevel="9" strokeColor="#A48029" strokeWidth="1" dashes="15,5">
+        <tag key="highway" value="track"/>
+    </draw-type>
+    <draw-type id="65" zoomLevel="9" strokeColor="#FA8173" strokeWidth="3" dashes="1,1" cap="butt">
+        <tag key="highway" value="steps"/>
+    </draw-type>
+    <draw-type id="66" zoomLevel="10" strokeColor="#AACEA3" strokeWidth="2">
+        <tag key="natural" value="tree_row"/>
+    </draw-type>
+    <draw-type id="67" zoomLevel="7" strokeColor="#FFC0CB" strokeWidth="2">
+        <tag key="highway" value="raceway"/>
+    </draw-type>
+    <draw-type id="68" zoomLevel="7" strokeColor="#9D9C9C" strokeWidth="1.5" dynamic="true" dashes="2">
+        <tag key="railway" value="subway"/>
+    </draw-type>
+    <draw-type id="69" zoomLevel="4" strokeColor="#C0BFBE" strokeWidth="3" dynamic="true" dashes="3,5">
+        <tag key="railway" value="rail"/>
+    </draw-type>
+
+    <draw-type id="70" zoomLevel="6" fillColor="FF620011" strokeColor="#FF6200AA"
+               strokeWidth="4" dashes="10,15">
+        <tag key="landuse" value="military"/>
+    </draw-type>
+
+    <draw-type id="71" zoomLevel="2" strokeColor="#F9B29C" strokeWidth="10"
+               dynamic="true" outline="true">
+        <tag key="highway" value="trunk"/>
+        <tag key="highway" value="trunk_link"/>
+    </draw-type>
+
+    <draw-type id="72" zoomLevel="1" strokeColor="#E892A2" strokeWidth="10"
+               dynamic="true" outline="true">
+        <tag key="highway" value="motorway_link"/>
+        <tag key="highway" value="motorway"/>
+    </draw-type>
+
+    <draw-type id="73" zoomLevel="7" fillColor="#DDDDE8"
+               strokeColor="#DDDDE8" strokeWidth="3"
+               dynamic="true" outline="true">
+        <tag key="highway" value="pedestrian"/>
+    </draw-type>
+    <draw-type id="74" zoomLevel="7" strokeColor="#EDEDED"
+               strokeWidth="3" dynamic="true" outline="true">
+        <tag key="highway" value="living_street"/>
+    </draw-type>
+    <draw-type id="75" zoomLevel="7" strokeColor="#FFFFFF"
+               strokeWidth="4" dynamic="true" outline="true">
+        <tag key="highway" value="residential"/>
+    </draw-type>
+    <draw-type id="76" zoomLevel="5" strokeColor="#FFFFFF"
+               strokeWidth="5" dynamic="true" outline="true">
+        <tag key="highway" value="tertiary"/>
+        <tag key="highway" value="tertiary_link"/>
+    </draw-type>
+    <draw-type id="77" zoomLevel="7" strokeColor="#FFFFFF"
+               strokeWidth="3" dynamic="true" outline="true">
+        <tag key="highway" value="unclassified"/>
+    </draw-type>
+    <draw-type id="78" zoomLevel="7" strokeColor="#FFFFFF"
+               strokeWidth="2.5" dynamic="true" outline="true">
+        <tag key="highway" value="service"/>
+    </draw-type>
+    <draw-type id="79" zoomLevel="4" strokeColor="#F7FABF"
+               strokeWidth="10" dynamic="true" outline="true">
+        <tag key="highway" value="secondary"/>
+    </draw-type>
+
+    <draw-type id="80" zoomLevel="2" strokeColor="#FCD6A4"
+               strokeWidth="10" dynamic="true" outline="true">
+        <tag key="highway" value="primary"/>
+    </draw-type>
+
+
+    <draw-type id="81" zoomLevel="7" strokeColor="#5C5B5A" strokeWidth="3">
+        <tag key="bridge" value="trestle"/>
+    </draw-type>
+
+    <draw-type id="82" zoomLevel="10" strokeColor="#9BC1A3" strokeWidth="3">
+        <tag key="natural" value="tree"/>
+    </draw-type>
+
+    <draw-type id="83" zoomLevel="8" strokeColor="#FFFFFF" strokeWidth="10">
+        <tag key="highway" value="turning_circle"/>
+    </draw-type>
+
+</draw-types>
+

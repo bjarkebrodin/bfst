@@ -1,0 +1,54 @@
+plugins {
+    id 'java'
+
+    id 'application'
+
+    id 'jacoco'
+
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
+javafx {
+    version = "11.0.2"
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.graphics']
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+application {
+    mainClassName = 'dankmap.Main'
+    applicationDefaultJvmArgs = ["-Xmx8g", "-Xms1g"]
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+dependencies {
+    compile 'org.openjfx:javafx-fxml:11.0.2'
+    compile 'org.openjfx:javafx-base:11.0.2'
+    compile 'org.openjfx:javafx-graphics:11.0.2:win'
+    compile 'org.openjfx:javafx-graphics:11.0.2:linux'
+    compile 'org.openjfx:javafx-graphics:11.0.2:mac'
+
+    // Use JUnit Jupiter Engine for testing.
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.1'
+    // Allow for JUnit 4 legacy
+    testCompileOnly 'junit:junit:4.12'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine:5.5.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': application.mainClassName
+    }
+    from {
+        configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
