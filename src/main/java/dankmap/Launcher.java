@@ -44,7 +44,8 @@ import java.util.Objects;
 public class Launcher extends Application {
 
     // THE PROGRAM WILL DEFAULT TO THIS FILE
-    public static final InputStream DEFAULT_MAP = Launcher.class.getClassLoader().getResourceAsStream("data/small.osm");
+    // public static final InputStream DEFAULT_MAP = Launcher.class.getClassLoader().getResourceAsStream("data/small.osm");
+    public static final InputStream DEFAULT_MAP = Launcher.class.getClassLoader().getResourceAsStream("data/default.bin");
 
     // DEFAULT WINDOW METRICS
     private static final double DEFAULT_WIDTH = 960;
@@ -85,7 +86,8 @@ public class Launcher extends Application {
         stage.setWidth(DEFAULT_WIDTH);
         stage.setResizable(true);
         stage.getIcons().add(new Image(Launcher.class.getClassLoader().getResourceAsStream("media/icons/globe.png")));
-        openMapScene(new File("data/small.osm"), stage);
+        // openMapScene(new File("data/small.osm"), stage);
+        openMapScene(DEFAULT_MAP, stage);
     }
 
     /**
